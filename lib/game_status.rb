@@ -1,6 +1,7 @@
 #board = ["X", "", "", "X", "", "", "X", "", ""]
 #board = ["X", " ", " ", "X", " ", " ", "X", " ", " "]
-board = ["X", "X", "O", "O", "X", "X", "X", "O", "O"]
+#board = ["X", "X", "O", "O", "X", "X", "X", "O", "O"]
+board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
 
 # Helper Method
 def position_taken?(board, index)
