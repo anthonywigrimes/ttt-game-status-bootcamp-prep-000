@@ -87,13 +87,13 @@ def winner(board)
       return false
    end
 
-   win = won?(board)
-   if board[win[0]] == "X"
-      "X"
-   elsif board[win[0]] == "O"
-      "O"
-   else
-      return false
+   if won?(board)
+      win = won?(board)
+      if board[win[0]] == "X"
+         "X"
+      elsif board[win[0]] == "O"
+         "O"
+      end
    end
 end
 
