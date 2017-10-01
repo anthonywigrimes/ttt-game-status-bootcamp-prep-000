@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-    if board.all? { |spot| spot == ""} == false
+    if board.all? { |spot| spot.strip == ""} == false
        false
     end
 
