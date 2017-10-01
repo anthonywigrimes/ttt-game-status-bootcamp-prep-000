@@ -83,7 +83,7 @@ end
 
 def winner(board)
    if !won?(board) && full?(board)
-      return false
+      return nil
    end
 
    win = won?(board)
