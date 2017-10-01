@@ -81,8 +81,8 @@ def over?(board)
 end
 
 def winner(board)
-   if !won?(board) && full?(board)
-      nil
+   if won?(board) == false && full?(board) == true
+      false
    end
 
    win = won?(board)
