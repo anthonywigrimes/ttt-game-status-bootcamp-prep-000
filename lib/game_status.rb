@@ -83,7 +83,7 @@ end
 
 def winner(board)
    if won?(board) == false && full?(board) == true
-      false
+      return false
    end
 
    win = won?(board)
