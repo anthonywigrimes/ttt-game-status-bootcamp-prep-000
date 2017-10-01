@@ -83,7 +83,7 @@ end
 
 def winner(board)
    if !won?(board) && full?(board)
-      return false.to_nil
+      return false.be_nil
    end
 
    win = won?(board)
