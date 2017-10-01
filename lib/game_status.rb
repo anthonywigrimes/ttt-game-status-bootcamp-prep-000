@@ -92,4 +92,4 @@ def winner(board)
 
 end
 
-puts winner(board)
+puts win
