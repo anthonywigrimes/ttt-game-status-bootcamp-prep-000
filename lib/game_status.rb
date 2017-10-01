@@ -80,10 +80,9 @@ def over?(board)
    end
 end
 
-win
-
 def winner(board)
    win = won?(board)
+   puts win.inspect
    if win[0] == "X"
       "X"
    elsif win[0] == "O"
@@ -91,7 +90,6 @@ def winner(board)
    else
       false
    end
-
 end
 
-puts win
+puts winner(board)
