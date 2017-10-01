@@ -1,7 +1,7 @@
 #board = ["X", "", "", "X", "", "", "X", "", ""]
 #board = ["X", " ", " ", "X", " ", " ", "X", " ", " "]
 #board = ["X", "X", "O", "O", "X", "X", "X", "O", "O"]
-board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
+#board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
 
 # Helper Method
 def position_taken?(board, index)
@@ -99,4 +99,4 @@ def winner(board)
    end
 end
 
-puts winner(board)
+#puts winner(board)
