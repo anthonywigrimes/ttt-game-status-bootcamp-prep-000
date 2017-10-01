@@ -80,6 +80,8 @@ def over?(board)
    end
 end
 
+win
+
 def winner(board)
    win = won?(board)
    if win[0] == "X"
