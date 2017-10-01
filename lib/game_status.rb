@@ -83,7 +83,7 @@ end
 def winner(board)
    win = won?(board)
    puts win.inspect
-   puts win[0]
+   puts board[win[0]]
    if win[0] == "X"
       "X"
    elsif win[0] == "O"
