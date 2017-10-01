@@ -1,5 +1,5 @@
 #board = ["X", "", "", "X", "", "", "X", "", ""]
-board = ["X", " ", " ", "X", " ", " ", "X", " ", " "]
+#board = ["X", " ", " ", "X", " ", " ", "X", " ", " "]
 
 # Helper Method
 def position_taken?(board, index)
@@ -82,15 +82,14 @@ end
 
 def winner(board)
    win = won?(board)
-   puts win.inspect
-   puts board[win[0]]
-   if win[0] == "X"
+
+   if board[win[0]] == "X"
       "X"
-   elsif win[0] == "O"
-      "0"
+   elsif board[win[0]] == "O"
+      "O"
    else
       false
    end
 end
 
-puts winner(board)
+#puts winner(board)
