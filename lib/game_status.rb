@@ -81,7 +81,15 @@ def over?(board)
 end
 
 def winner(board)
-   won?(board)[0]
+   win = won?(board)
+   if win[0] == "X"
+      "X"
+   elsif win[0] == "O"
+      "0"
+   else
+      false
+   end
+
 end
 
 #puts full?(board)
